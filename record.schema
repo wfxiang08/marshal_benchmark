@@ -1,0 +1,8 @@
+struct CacheRecord {
+	ID     int64
+	Rank   int64
+}
+
+struct CacheList {
+    data []*CacheRecord
+}
